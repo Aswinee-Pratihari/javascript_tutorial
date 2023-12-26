@@ -28,5 +28,9 @@ console.log(arrFunc(1, 2));
 //Immediately Invoked Function Expressions
 //used to remove polution caused by globalscope variables and immediatedly invoked without need to call it again
 (() => {
-  console.log("db connected");
+  console.log(`db connected `);
 })(); //semicolon is needed
+
+((name) => {
+  console.log(`db connected BY ${name}`);
+})("Aswinee"); //semicolon is needed
