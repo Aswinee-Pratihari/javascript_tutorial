@@ -45,5 +45,5 @@ const listClass = document.getElementsByClassName("list");
 const listArray = Array.from(listClass);
 console.log(listArray);
 listArray.forEach((list) => {
-  list.style.color = "red";
+  list.style.color = "gray";
 });
